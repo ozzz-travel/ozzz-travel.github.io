@@ -245,6 +245,56 @@ header {
 	float: left;
 }
 
+/*center*/
+
+.tr-center {
+	display: block;
+	min-height: 20px;
+	/* border: 1px solid silver; */
+}
+
+.td-center {
+	/* border: 1px solid silver; */
+	display: block;
+	min-height: 20px;
+	text-align: center;
+}
+
+.TdText-center {
+	min-height: 10px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.wrapperDiv-center {
+	margin-top: 5%;
+	text-align: center;
+	color: #000;
+	margin-bottom: 12%;
+}
+
+.TdDiv-center {
+	border: 1px solid silver;
+	/* width: 25%; */
+	margin-left: 40%;
+	margin-right: 40%;
+	font-size: 1.2em;
+	color: #fff;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+	transition: all 0.5s ease;
+	/* margin-top: 5%; */
+}
+
+.TdDiv-center:hover {
+	background-color: #c0c0c0;
+	color: #fff;
+	transition: all 0.5s ease;
+}
+/*center*/
+
 .GeneralText {
 	/* border: 1px solid silver; */
 	float: left;
