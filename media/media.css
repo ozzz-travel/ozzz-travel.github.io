@@ -3,6 +3,10 @@
 		font-size: 2em; 
 	}
 	
+	.TdText-center {
+		font-size: 2em; 
+	}
+	
 	.name {
 		font-size: 4.5em;
 	}
@@ -30,6 +34,10 @@
 
 @media only screen and (max-width: 1366px) {
 	.TdText {
+		font-size: 1.5em;
+	}
+	
+	.TdText-center {
 		font-size: 1.5em;
 	}
 	
@@ -83,11 +91,30 @@
 			margin-right: 0;
 		}
 		
+		.TdDiv-center {
+			width: 90%;
+			margin-left: 0;
+			margin-right: 0;
+		}
+		
 		.TdText {
 			font-size: 1.7em;
 		}
 		
+		.TdText-center {
+			font-size: 1.7em;
+		}
+		
 		.td {
+			width: 70%;
+			margin-left: 15%;
+			margin-right: 15%;
+			float: left;
+			min-height: 20px;
+			margin-bottom: 3%;
+		}
+		
+		.td-center {
 			width: 70%;
 			margin-left: 15%;
 			margin-right: 15%;
@@ -139,7 +166,18 @@
 		float: left;
 	}
 	
+	.td-center {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		float: left;
+	}
+	
 	.TdText {
+		font-size: 1.7em;
+	}
+	
+	.TdText-center {
 		font-size: 1.7em;
 	}
 	
@@ -176,7 +214,18 @@
 		float: left;
 	}
 	
+	.td-center {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		float: left;
+	}
+	
 	.TdText {
+		font-size: 1.7em;
+	}
+	
+	.TdText-center {
 		font-size: 1.7em;
 	}
 	
@@ -206,6 +255,13 @@
 		}
 		
 		.td {
+			width: 100%;
+			margin-left: 0%;
+			margin-right: 0%;
+			float: left;
+		}
+		
+		.td-center {
 			width: 100%;
 			margin-left: 0%;
 			margin-right: 0%;
