@@ -189,6 +189,10 @@
 		min-height: 10px;
 		text-align: left;
 	}
+	
+	header {
+		min-height: 140px;
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -237,11 +241,19 @@
 		min-height: 10px;
 		text-align: left;
 	}
+	
+	header {
+		min-height: 160px;
+	}
 }
 
 @media only screen and (max-width: 360px) {
 		.pulse {
 			margin-left: 36%;
+		}
+	
+		header {
+			min-height: 140px;
 		}
 }
 
@@ -268,6 +280,10 @@
 			float: left;
 			margin-bottom: 8%;
 		}
+	
+		header {
+			min-height: 140px;
+		}
 }
 
 @media only screen and (max-width: 290px) {
@@ -277,5 +293,9 @@
 		
 		.name {
 			font-size: 3em;
+		}
+	
+		header {
+			min-height: 140px;
 		}
 }
